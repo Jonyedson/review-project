@@ -1,6 +1,7 @@
 :root {
   --textColor: rgb(51, 51, 71);
   --textGreen: rgb(106, 199, 186);
+  --textGreen-sec: rgba(106, 199, 187, 0.432);
   --textPurple: rgb(224, 220, 233);
   --whiteColor: rgb(255, 255, 255);
 }
@@ -45,7 +46,7 @@ body {
   align-items: center;
   margin: 10px;
   padding: 20px 20px;
-    width: 400px;
+  width: 400px;
   border-radius: 5px;
   background-color: var(--whiteColor);
 }
@@ -56,15 +57,34 @@ body {
   box-shadow: 5px -5px var(--textGreen);
 }
 
-#author {
-
-}
-
 #job {
-    padding: 10px;
-    color: var(--textGreen);
+  padding: 10px;
+  color: var(--textGreen);
 }
 
 .info {
-    text-align: center;
+  text-align: center;
+}
+
+button {
+  background-color: var(--whiteColor);
+  border: none;
+}
+
+.btn-suprise {
+    color: var(--whiteColor);
+    margin-top: 5px;
+  padding: 0.6rem 1.8rem;
+  background-color: var(--textGreen );
+}
+
+.btn-suprise:hover {
+  color: var(--textGreen);
+  background-color: var(--whiteColor );
+}
+
+i {
+  color: var(--textGreen);
+  padding: 10px;
+  
 }
