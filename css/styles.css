@@ -1,0 +1,70 @@
+:root {
+  --textColor: rgb(51, 51, 71);
+  --textGreen: rgb(106, 199, 186);
+  --textPurple: rgb(224, 220, 233);
+  --whiteColor: rgb(255, 255, 255);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--textColor);
+}
+body {
+  background-color: var(--textPurple);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.title {
+  position: relative;
+}
+
+.title h2 {
+  padding: 7px 0;
+}
+
+.underline {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background-color: var(--textGreen);
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px 20px;
+    width: 400px;
+  border-radius: 5px;
+  background-color: var(--whiteColor);
+}
+
+.review .img-container img {
+  max-width: 100px;
+  border-radius: 50px 10px 50px 10px;
+  box-shadow: 5px -5px var(--textGreen);
+}
+
+#author {
+
+}
+
+#job {
+    padding: 10px;
+    color: var(--textGreen);
+}
+
+.info {
+    text-align: center;
+}
