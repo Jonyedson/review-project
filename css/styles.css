@@ -52,7 +52,7 @@ body {
 }
 
 .review .img-container img {
-  max-width: 100px;
+  max-width: 200px;
   border-radius: 50px 10px 50px 10px;
   box-shadow: 5px -5px var(--textGreen);
 }
